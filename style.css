@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+body{
+    font-family: 'Karla', sans-serif;
+
+}
+
+h1{
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+.bg-header{
+    background:hsl(256, 26%, 20%);
+}
+
+.text-header{
+    color: white;
+}
+
+.navbar-index{
+    z-index: 20;
+}
+
+.navbar-text{
+    text-transform: uppercase;
+}
+
+.navbar-highlight:hover{
+    color:hsl(256, 26%, 20%);
+}
+
+.navbar-button{
+    background: white;
+    border: 3px solid hsl(270, 9%, 17%);
+    transform: translateY(-3px);
+    padding: 0 3px 0 3px;
+    margin: 0 10px 0 10px;
+}
+.navbar-button .navbar-buttontext{
+    color: hsl(270, 9%, 17%);
+    text-decoration: none;
+}
+
+.navbar-button:hover{
+    background: hsl(270, 9%, 17%);
+    border: 3px solid hsl(270, 9%, 17%);
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+.navbar-button .navbar-buttontext:hover{
+    color: white;
+}
+
+.intro-info{
+    margin: 5em;
+}
